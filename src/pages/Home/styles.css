@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+}
+
+.Container {
+    width: 100%;
+}
+
+.parent {
+    position: relative;
+}
+
+.backgroundTop {
+    position: relative;
+    opacity: 0.7;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    margin-left: 43%;
+    margin-top: 90px;
+    transform: scale(1.5);
+}
+
+.explain-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    margin-left: 10%;
+    margin-top: 300px;
+
+}
+
+.phrase {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#howItWorks {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textExplainHowItWorld {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10%;
+    width: 40%;
+}
+
+#imageParking {
+    width: 50%;
+}
+
+#textExplainHowItWorld,
+#imageParking {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#whereCanIuse {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+#benefits {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#withParkCarYou {
+    font-size: 10px;
+}
+
+#textExplainBenefits,
+#imageParkingStreets {
+    display: inline-block;
+}
+
+#textExplainBenefits {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10%;
+    width: 40%;
+}
+
+#imageParkingStreets {
+    width: 50%;
+}
+
+#benefitsPoints {
+    
+}
+
+#knowOurApp {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#screensApp {
+    text-align: center;
+}
+
+#privatePolitics {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: bold;
+    color: black !important;
+}
