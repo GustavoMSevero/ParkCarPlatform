@@ -20,7 +20,7 @@ body {
     position: absolute;
     left: 0;
     margin-left: 43%;
-    margin-top: 122px;
+    margin-top: 260px;
     transform: scale(1.5);
 }
 
@@ -34,24 +34,26 @@ body {
     text-align: center;
 
     margin-left: 10%;
-    margin-top: 300px;
+    margin-top: 450px;
 
 }
 
-.phrase {
+.howItWorksContainer {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: -50px;
 
 }
 
-#howItWorks {
+#howItWorksTitle {
     color: orange;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-#textExplainHowItWorld {
+#textExplainHowItWorks {
     font-size: 20px;
     text-align: left;
     margin-left: 10%;
@@ -62,7 +64,7 @@ body {
     width: 50%;
 }
 
-#textExplainHowItWorld,
+#textExplainHowItWorks,
 #imageParking {
     display: inline-block;
     margin-bottom: 50px;
@@ -71,12 +73,15 @@ body {
 #whereCanIuse {
     color: orange;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 #benefits {
     color: orange;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
 }
 
 #withParkCarYou {
