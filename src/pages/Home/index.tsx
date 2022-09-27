@@ -24,91 +24,86 @@ const Home: React.FC = () => {
                 </div>
             </div>
 
-            <div className='phrase'>
+            <div id='howItWorksTitle'>
+                <h1>COMO FUNCIONA</h1>
+            </div>
 
-                <div id='howItWorks'>
-                    <h1>COMO FUNCIONA</h1>
+            <div className='howItWorksContainer'>
+                <div id='textExplainHowItWorks'>
+                    1º. Instale o aplicativo ParkCar; <br></br>
+                    2º. Faça o cadastro no app; <br></br>
+                    3º. Cadastre seu veículo; <br></br>
+                    4º. Compre créditos; <br></br>
+                    5º. No app, informe seu destino e ele lhe mostrará estacionamentos e vagas nas ruas; <br></br>
+                    6º. No estacionamento, informe a placa ao atendente ou uma câmera identificará sua placa. <br></br>
+                    7º. Na saída informe a placa, ou a câmera identificará o mesmo e o sistema debita o valor de permanência dos seus créditos! <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </div>
-                <div className='howItWorksContainer'>
-                    <div id='textExplainHowItWorld'>
-                        1º. Instale o aplicativo ParkCar; <br></br>
-                        2º. Faça o cadastro no app; <br></br>
-                        3º. Cadastre seu veículo; <br></br>
-                        4º. Compre créditos; <br></br>
-                        5º. No app, informe seu destino e ele lhe mostrará estacionamentos e vagas nas ruas; <br></br>
-                        6º. No estacionamento, informe a placa ao atendente ou uma câmera identificará sua placa. <br></br>
-                        7º. Na saída informe a placa, ou a câmera identificará o mesmo e o sistema debita o valor de permanência dos seus créditos! <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                    </div>
-                    <div id='imageParking'>
-                        <img src={parking1} width="80%" alt="" />
-                    </div>
+                <div id='imageParking'>
+                    <img src={parking1} width="80%" alt="" />
                 </div>
             </div>
 
-            <div className='phrase'>
 
-                <div id='whereCanIuse'>
-                    <h1>ONDE POSSO USAR</h1>
+            <div id='whereCanIuse'>
+                <h1>ONDE POSSO USAR</h1>
+            </div>
+
+            <div className='howItWorksContainer'>
+                <div id='imageParking'>
+                    <img src={parking2} width="80%" alt="" />
                 </div>
-                <div className='howItWorksContainer'>
-                    <div id='imageParking'>
-                        <img src={parking2} width="80%" alt="" />
-                    </div>
-                    <div id='textExplainHowItWorld'>
-                        √ Shoppings; <br></br>
-                        √ Supermercados; <br></br>
-                        √ Pedágios; <br></br>
-                        √ Hospitais; <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                    </div>
+                <div id='textExplainHowItWorld'>
+                    √ Shoppings; <br></br>
+                    √ Supermercados; <br></br>
+                    √ Pedágios; <br></br>
+                    √ Hospitais; <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </div>
             </div>
 
-            <div className='phrase'>
-
-                <div id='benefits'>
-                    <h1>BENEFÍCIOS</h1>
+            <div id='benefits'>
+                <h1>BENEFÍCIOS</h1>
+            </div>
+            <div className='howItWorksContainer'>
+                <div id='textExplainBenefits'>
+                    <div id='withParkCarYou'>
+                        <h1>Com ParkCar você:</h1>
+                    </div>
+                    <div id='benefitsPoints'>
+                    √ Ganha tempo na hora de estacionar. <br></br>
+                    √ Evita filas para pagar o ticket. <br></br>
+                    √ Controle de tempo de permanência. <br></br>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
                 </div>
-                <div className='howItWorksContainer'>
-                    <div id='textExplainBenefits'>
-                        <div id='withParkCarYou'>
-                            <h1>Com ParkCar você:</h1>
-                        </div>
-                        <div id='benefitsPoints'>
-                        √ Ganha tempo na hora de estacionar. <br></br>
-                        √ Evita filas para pagar o ticket. <br></br>
-                        √ Controle de tempo de permanência. <br></br>
-                        </div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                    </div>
-                    <div id='imageParkingStreets'>
-                        <img src={parkingStreets} width="80%" alt="" />
-                    </div>
+                <div id='imageParkingStreets'>
+                    <img src={parkingStreets} width="80%" alt="" />
                 </div>
             </div>
 
