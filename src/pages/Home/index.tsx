@@ -16,10 +16,12 @@ const Home: React.FC = () => {
             <div className='parent'>
                 <img className='backgroundTop' src={backgroundTop} width="100%" height="573" alt="foto estacionamento"/>
                 <img className='logo' src={logo} alt="logo parkcar"/>
-                <p className='explain-text'>Chegou ParkCar <br></br>
-                o aplicativo que te informa os estacionamentos conveniados, <br />
+
+                <div className='explain-text'>
+                Chegou ParkCar! <br></br>
+                O aplicativo que te informa os estacionamentos conveniados, <br />
                 vagas nas ruas do centro da cidade onde você pode estacionar e a quantidade.
-                </p>
+                </div>
             </div>
 
             <div className='phrase'>
